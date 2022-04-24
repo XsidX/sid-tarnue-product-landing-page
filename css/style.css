@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+#header{
+    width: 100% !important;
+    position: fixed;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#header-img{
+    max-width: 90px;
+    height: auto;
+
+}
+
+#nav-bar ul {
+    display: flex;
+}
+#nav-bar ul li{
+    margin-right: 3px;
+    padding:7px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    font-weight: bold;
+}
+p{
+    font-size: 19px;
+}
+
+#hero{
+    padding-left:15px;
+    height: 40vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}
+#hero h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+
+#hero span{
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+#hero form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+;
+    
+}
+
+input[type="email"]{
+    padding:11px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+input[type="submit"]{
+   display:inline-block;
+   width: 50%;
+   padding: 7px;
+   border-radius: 15px;
+   border:none;
+   background-color: cadetblue;
+   color:white;
+   font-size: 19px;
+
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+#video{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:60px;
+    align-items: center;
+}
+
+#pricing div{
+    text-align: center;
+    background-color: antiquewhite;
+    margin:10px;
+    padding: 7px;
+    border: 2px solid cadetblue;
+
+}
+
+button{
+    width: 100%;
+    display:inline-block;
+   padding: 7px;
+   border-radius: 15px;
+   border:none;
+   background-color: cadetblue;
+   color:white;
+   font-size: 19px;
+   margin-top: 15px;
+}
+
+#footer{
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px 0;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (min-width:576px) {
+   #pricing {
+       flex-direction: row;
+       margin-left:150px;
+       margin-right:150px;
+   }
+
+   #hero{
+    padding-left:0px;
+    height: 60vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+
+   
+#hero h1{
+    margin-top: 150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+#hero p{
+    font-size: 25px;
+    margin-bottom: 11px;
+}
+
+#hero span{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+}
